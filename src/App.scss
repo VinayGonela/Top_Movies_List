@@ -1,0 +1,56 @@
+
+:root{
+  --text-primary:#000;
+  --bgPrimary:#fff;
+ --bgSecondary: #F9F9F9;
+ --pink: #0071bd;
+ --light-blue: #e6f7ff;
+ --border: #d9d9d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:hover{
+  color: var(--pink) !important;
+}
+
+.app{
+  display: flex;
+  overflow: hidden;
+}
+
+.main{
+  flex: 0.8;
+  width: 100%;
+  
+}
+.routes{
+  padding: 20px;
+}
+
+.movie-card-container{
+  min-height: 65vh !important;
+}
+.movie-card{
+ width: 600px;
+ height: 800px;
+}
+.movie-card .movie-image{
+  width:150px;
+}
+
+.table:hover{
+  cursor: pointer;
+}
+.button{
+margin-top: 20px;
+}
+
+.home-page{
+  background-image: url("https://image.shutterstock.com/image-vector/online-cinema-art-movie-watching-260nw-700366096.jpg");
+  background-position: 40px 100px;
+}
